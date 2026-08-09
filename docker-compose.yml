@@ -1,0 +1,122 @@
+services:
+
+  # ========================================================
+  # Qdrant vector database
+  # ========================================================
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: clara-qdrant
+
+    ports:
+      - "6333:6333"
+
+    # Persist the indexed vector database between restarts.
+    volumes:
+      - clara_qdrant_data:/qdrant/storage
+
+    restart: unless-stopped
+
+
+  # ========================================================
+  # CLARA FastAPI service
+  # ========================================================
+
+  clara-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: clara-api
+
+    ports:
+      - "8000:8000"
+
+    environment:
+
+      # Ollama runs directly on the host machine.
+      OLLAMA_URL: http://host.docker.internal:11434
+
+      # Qdrant is reached through the internal Docker network.
+      QDRANT_URL: http://qdrant:6333
+
+      # Models used by the CLARA RAG pipeline.
+      EMBEDDING_MODEL: bge-m3
+      AMALIA_MODEL: hf.co/ruialexrib/AMALIA-9B-0626-SFT-GGUF:Q3_K_M
+
+      # Qdrant collection containing the indexed legal corpus.
+      QDRANT_COLLECTION: clara_bge_m3
+
+      # Retrieval and generation parameters.
+      TOP_K: 5
+      TEMPERATURE: 0.1
+
+      # HTTP request timeouts in seconds.
+      OLLAMA_TIMEOUT: 300
+      QDRANT_TIMEOUT: 120
+
+    # Allow the container to access services running
+    # directly on the host machine.
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    depends_on:
+      - qdrant
+
+    restart: unless-stopped
+
+
+  # ========================================================
+  # Open WebUI conversational interface
+  # ========================================================
+
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: clara-open-webui
+
+    ports:
+      - "3000:8080"
+
+    # Persist Open WebUI configuration and application data.
+    volumes:
+      - clara_open_webui_data:/app/backend/data
+
+    environment:
+
+      # Enable the OpenAI-compatible backend.
+      ENABLE_OPENAI_API: "true"
+
+      # CLARA exposes an OpenAI-compatible API through FastAPI.
+      OPENAI_API_BASE_URL: http://clara-api:8000/v1
+      OPENAI_API_KEY: clara-local
+
+      # Use CLARA as the default model in the interface.
+      DEFAULT_MODELS: clara
+      DEFAULT_PINNED_MODELS: clara
+
+      # Default interface language.
+      DEFAULT_LOCALE: pt-PT
+
+      # Open WebUI application identity.
+      WEBUI_NAME: CLARA
+
+      # Persistent key used to protect sessions and application data.
+      WEBUI_SECRET_KEY: ${WEBUI_SECRET_KEY}
+
+    depends_on:
+      - clara-api
+
+    restart: unless-stopped
+
+
+# ==========================================================
+# Persistent Docker volumes
+# ==========================================================
+
+volumes:
+
+  # Stores the Qdrant vector database.
+  clara_qdrant_data:
+
+  # Stores Open WebUI settings, users, and application data.
+  clara_open_webui_data:

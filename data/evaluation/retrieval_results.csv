@@ -1,0 +1,51 @@
+﻿question_id,question,rank,score,document_id,article,article_title,page_start,page_end,chunk_id,relevant
+Q001,Como são tributados os rendimentos prediais?,1,0.7041471,CIRS,Artigo 8.º,Rendimentos da categoria F,32,33,CIRS_ART_0027_CHUNK_001,True
+Q001,Como são tributados os rendimentos prediais?,2,0.656335,EBF,Artigo 45.º-C,"(Aditado pelo Decreto-Lei n.º 97/2026, de 20 de maio)",79,81,EBF_ART_0128_CHUNK_001,False
+Q001,Como são tributados os rendimentos prediais?,3,0.6514709,CIRS,Artigo 16.º,As modificações do Código,11,23,CIRS_ART_0017_CHUNK_013,True
+Q001,Como são tributados os rendimentos prediais?,4,0.638217,EBF,Artigo 74.º-A,Transferência de imóveis de alojamento local para arrendamento,106,107,EBF_ART_0183_CHUNK_001,False
+Q001,Como são tributados os rendimentos prediais?,5,0.6319151,CIRS,Artigo 72.º,Taxas especiais,86,91,CIRS_ART_0108_CHUNK_002,True
+Q001,Como são tributados os rendimentos prediais?,6,0.62980974,CIRS,Artigo 72.º,Taxas especiais,86,91,CIRS_ART_0108_CHUNK_001,True
+Q001,Como são tributados os rendimentos prediais?,7,0.6226911,CIRC,Artigo 56.º,Rendimentos não imputáveis a estabelecimento estável,81,82,CIRC_ART_0070_CHUNK_001,False
+Q001,Como são tributados os rendimentos prediais?,8,0.6008863,CIMI,Artigo 12.º,Conceito de matrizes prediais,32,32,CIMI_ART_0048_CHUNK_001,False
+Q001,Como são tributados os rendimentos prediais?,9,0.59882,CIRS,Artigo 41.º,Deduções,68,69,CIRS_ART_0072_CHUNK_002,True
+Q001,Como são tributados os rendimentos prediais?,10,0.59337735,EBF,Artigo 59.º-G,Entidades de gestão florestal e unidades de gestão florestal,88,90,EBF_ART_0149_CHUNK_004,False
+Q002,Como é determinado o valor patrimonial tributário dos imóveis?,1,0.75022984,CIS,Artigo 13.º,Valor tributável dos bens imóveis,33,34,CIS_ART_0033_CHUNK_001,False
+Q002,Como é determinado o valor patrimonial tributário dos imóveis?,2,0.7145753,CIMI,Artigo 38.º,Determinação do valor patrimonial tributário,42,43,CIMI_ART_0076_CHUNK_001,True
+Q002,Como é determinado o valor patrimonial tributário dos imóveis?,3,0.7090166,CIMI,Artigo 46.º,Valor patrimonial tributário dos prédios da espécie «Outros»,50,50,CIMI_ART_0084_CHUNK_001,True
+Q002,Como é determinado o valor patrimonial tributário dos imóveis?,4,0.70466214,CIMI,Artigo 14.º,Objecto da avaliação,34,34,CIMI_ART_0051_CHUNK_001,True
+Q002,Como é determinado o valor patrimonial tributário dos imóveis?,5,0.70067304,CIMI,Artigo 7.º,Valor Patrimonial Tributário,27,27,CIMI_ART_0041_CHUNK_001,True
+Q002,Como é determinado o valor patrimonial tributário dos imóveis?,6,0.68607545,CIMI,Artigo 45.º,Valor patrimonial tributário dos terrenos para construção,49,50,CIMI_ART_0083_CHUNK_001,True
+Q002,Como é determinado o valor patrimonial tributário dos imóveis?,7,0.6831509,CIS,Artigo 16.º,Actualização do valor patrimonial tributário,6,7,CIS_ART_0004_CHUNK_001,False
+Q002,Como é determinado o valor patrimonial tributário dos imóveis?,8,0.68294454,CIMI,Artigo 15.º-D,"(Aditado pela Lei nº 60-A/2011, de 30 de novembro)",10,11,CIMI_ART_0007_CHUNK_001,True
+Q002,Como é determinado o valor patrimonial tributário dos imóveis?,9,0.670447,CIMI,Artigo 17.º,Valor patrimonial tributário,34,34,CIMI_ART_0054_CHUNK_001,True
+Q002,Como é determinado o valor patrimonial tributário dos imóveis?,10,0.6635939,CIMI,Artigo 16.º,Actualização do valor patrimonial tributário,15,16,CIMI_ART_0019_CHUNK_001,True
+Q003,Quais são as principais obrigações declarativas em IVA?,1,0.6406586,CIVA,Artigo 29.º,Obrigações em geral,121,125,CIVA_ART_0144_CHUNK_001,True
+Q003,Quais são as principais obrigações declarativas em IVA?,2,0.63029385,CIVA,Artigo 66.º,Passagem compulsiva ao regime normal de tributação,152,154,CIVA_ART_0180_CHUNK_001,True
+Q003,Quais são as principais obrigações declarativas em IVA?,3,0.61759996,CIVA,Artigo 29.º,Obrigações em geral,121,125,CIVA_ART_0144_CHUNK_005,True
+Q003,Quais são as principais obrigações declarativas em IVA?,4,0.6153151,CIVA,Artigo 29.º,Obrigações em geral,121,125,CIVA_ART_0144_CHUNK_002,True
+Q003,Quais são as principais obrigações declarativas em IVA?,5,0.6117658,CIRC,Artigo 117.º,Obrigações declarativas,146,147,CIRC_ART_0144_CHUNK_001,False
+Q003,Quais são as principais obrigações declarativas em IVA?,6,0.61140573,CIVA,Artigo 26.º,,58,59,CIVA_ART_0105_CHUNK_001,True
+Q003,Quais são as principais obrigações declarativas em IVA?,7,0.6014381,CIVA,Artigo 59.º-D,"Obrigações de faturação, obrigações declarativas e período em que passa a",149,149,CIVA_ART_0173_CHUNK_001,True
+Q003,Quais são as principais obrigações declarativas em IVA?,8,0.5988275,CIVA,Artigo 77.º,Serviço de finanças competente,156,160,CIVA_ART_0190_CHUNK_003,True
+Q003,Quais são as principais obrigações declarativas em IVA?,9,0.596851,CIVA,Artigo 57.º,Obrigações declarativas e de faturação,143,143,CIVA_ART_0168_CHUNK_001,True
+Q003,Quais são as principais obrigações declarativas em IVA?,10,0.5917521,CIVA,Artigo 31.º,Declaração de início de actividade,125,126,CIVA_ART_0146_CHUNK_001,True
+Q004,Que benefícios fiscais estão previstos para imóveis?,1,0.6603404,EBF,Artigo 44.º-B,Outros benefícios com caráter ambiental atribuídos a imóveis,76,78,EBF_ART_0125_CHUNK_003,True
+Q004,Que benefícios fiscais estão previstos para imóveis?,2,0.64834374,EBF,Artigo 46.º,[...],26,27,EBF_ART_0045_CHUNK_001,True
+Q004,Que benefícios fiscais estão previstos para imóveis?,3,0.64053756,EBF,Artigo 44.º,Isenções,73,75,EBF_ART_0123_CHUNK_001,True
+Q004,Que benefícios fiscais estão previstos para imóveis?,4,0.63715243,EBF,Artigo 42.º,[...],26,26,EBF_ART_0043_CHUNK_001,True
+Q004,Que benefícios fiscais estão previstos para imóveis?,5,0.6371039,CIMI,Artigo 135.º-B,Incidência objetiva,84,85,CIMI_ART_0177_CHUNK_001,False
+Q004,Que benefícios fiscais estão previstos para imóveis?,6,0.63078773,EBF,Artigo 44.º-B,Outros benefícios com caráter ambiental atribuídos a imóveis,76,78,EBF_ART_0125_CHUNK_001,True
+Q004,Que benefícios fiscais estão previstos para imóveis?,7,0.6305659,CIS,Artigo 13.º,Valor tributável dos bens imóveis,33,34,CIS_ART_0033_CHUNK_001,False
+Q004,Que benefícios fiscais estão previstos para imóveis?,8,0.62475836,CIMI,Artigo 11.º-A,Prédios de reduzido valor patrimonial de sujeitos passivos de baixos rendimentos,29,31,CIMI_ART_0046_CHUNK_001,False
+Q004,Que benefícios fiscais estão previstos para imóveis?,9,0.6241834,EBF,Artigo 71.º-A,Incentivos ao arrendamento habitacional a custos acessíveis e à venda de imóveis ao,105,106,EBF_ART_0179_CHUNK_001,True
+Q004,Que benefícios fiscais estão previstos para imóveis?,10,0.6236729,EBF,Artigo 45.º-A,Prédios urbanos destinados ao Programa de Apoio ao Arrendamento,78,78,EBF_ART_0126_CHUNK_001,True
+Q005,Quais são as regras relativas às infrações tributárias?,1,0.6597543,RGIT,Artigo 2.º,Conceito e espécies de infracções tributárias,7,7,RGIT_ART_0004_CHUNK_001,True
+Q005,Quais são as regras relativas às infrações tributárias?,2,0.6530176,RGIT,Artigo 5.º,Lugar e momento da prática da infracção tributária,8,8,RGIT_ART_0007_CHUNK_001,True
+Q005,Quais são as regras relativas às infrações tributárias?,3,0.64675987,RGIT,Artigo 1.º,Âmbito de aplicação,7,7,RGIT_ART_0003_CHUNK_001,True
+Q005,Quais são as regras relativas às infrações tributárias?,4,0.61419666,LGT,Artigo 8.º,Princípio da legalidade tributária,10,10,LGT_ART_0014_CHUNK_001,False
+Q005,Quais são as regras relativas às infrações tributárias?,5,0.60475063,RGIT,Artigo 10.º,Especialidade das normas tributárias e concurso de infracções,10,10,RGIT_ART_0012_CHUNK_001,True
+Q005,Quais são as regras relativas às infrações tributárias?,6,0.6014271,LGT,Artigo 12.º,Aplicação da lei tributária no tempo,11,11,LGT_ART_0018_CHUNK_001,False
+Q005,Quais são as regras relativas às infrações tributárias?,7,0.59625214,LGT,Artigo 2.º,Legislação complementar,8,8,LGT_ART_0008_CHUNK_001,False
+Q005,Quais são as regras relativas às infrações tributárias?,8,0.59493697,RGIT,Artigo 12.º,Penas aplicáveis aos crimes tributários,12,12,RGIT_ART_0014_CHUNK_001,True
+Q005,Quais são as regras relativas às infrações tributárias?,9,0.59275544,RGIT,Artigo 2.º,Norma revogatória,5,7,RGIT_ART_0002_CHUNK_001,True
+Q005,Quais são as regras relativas às infrações tributárias?,10,0.5913114,LGT,Artigo 44.º,Falta de pagamento da prestação tributária,24,25,LGT_ART_0050_CHUNK_001,False

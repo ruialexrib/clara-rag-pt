@@ -1,0 +1,13 @@
+{
+  "questions": 5,
+  "MRR": 0.9,
+  "mean_latency_ms": 452.05537999863736,
+  "Hit@1": 0.8,
+  "Recall@1": 0.8,
+  "Hit@3": 1.0,
+  "Recall@3": 1.0,
+  "Hit@5": 1.0,
+  "Recall@5": 1.0,
+  "Hit@10": 1.0,
+  "Recall@10": 1.0
+}

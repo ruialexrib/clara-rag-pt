@@ -1,0 +1,42 @@
+[
+  {
+    "id": "Q001",
+    "question": "Como são tributados os rendimentos prediais?",
+    "relevant_documents": [
+      "CIRS"
+    ],
+    "relevant_articles": []
+  },
+  {
+    "id": "Q002",
+    "question": "Como é determinado o valor patrimonial tributário dos imóveis?",
+    "relevant_documents": [
+      "CIMI"
+    ],
+    "relevant_articles": []
+  },
+  {
+    "id": "Q003",
+    "question": "Quais são as principais obrigações declarativas em IVA?",
+    "relevant_documents": [
+      "CIVA"
+    ],
+    "relevant_articles": []
+  },
+  {
+    "id": "Q004",
+    "question": "Que benefícios fiscais estão previstos para imóveis?",
+    "relevant_documents": [
+      "EBF"
+    ],
+    "relevant_articles": []
+  },
+  {
+    "id": "Q005",
+    "question": "Quais são as regras relativas às infrações tributárias?",
+    "relevant_documents": [
+      "RGIT"
+    ],
+    "relevant_articles": []
+  }
+]

@@ -1,0 +1,6 @@
+﻿id,question,latency_ms,mrr,hit@1,recall@1,hit@3,recall@3,hit@5,recall@5,hit@10,recall@10
+Q001,Como são tributados os rendimentos prediais?,464.2493999999715,1.0,1,1.0,1,1.0,1,1.0,1,1.0
+Q002,Como é determinado o valor patrimonial tributário dos imóveis?,473.447500000475,0.5,0,0.0,1,1.0,1,1.0,1,1.0
+Q003,Quais são as principais obrigações declarativas em IVA?,491.5521999937482,1.0,1,1.0,1,1.0,1,1.0,1,1.0
+Q004,Que benefícios fiscais estão previstos para imóveis?,449.1998000012245,1.0,1,1.0,1,1.0,1,1.0,1,1.0
+Q005,Quais são as regras relativas às infrações tributárias?,381.8279999977676,1.0,1,1.0,1,1.0,1,1.0,1,1.0
